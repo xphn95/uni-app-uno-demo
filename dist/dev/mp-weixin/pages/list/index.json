@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "list",
+  "navigationBarBackgroundColor": "#A54354",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "pub-title": "../../components/PubTitle/PubTitle"
+  }
+}

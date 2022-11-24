@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "form",
+  "usingComponents": {
+    "pub-title": "../../components/PubTitle/PubTitle",
+    "test-props": "../../components/TestProps/TestProps"
+  }
+}

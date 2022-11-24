@@ -1,0 +1,1 @@
+<view class="data-v-5e96604a"><view class="data-v-5e96604a">---方块样式---</view><view w-300rpx class="{{[a, 'w-300rpx', 'bg-pink-3', 'data-v-5e96604a']}}" bg-pink-3/><button class="data-v-5e96604a" size="mini" bindtap="{{b}}"> 关闭 </button></view>

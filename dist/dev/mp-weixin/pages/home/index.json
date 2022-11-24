@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "home",
+  "usingComponents": {
+    "pub-title": "../../components/PubTitle/PubTitle",
+    "test-emits": "../../components/TestEmits/TestEmits",
+    "my-pop": "../../components/MyPop/MyPop",
+    "model-pop": "../../components/ModelPop/ModelPop",
+    "hello-world": "../../components/HelloWorld/HelloWorld"
+  }
+}

@@ -1,0 +1,27 @@
+/* layer: default */
+.inline-block.data-v-1c1d3c2f,
+[inline-block=""].data-v-1c1d3c2f{display:inline-block;}
+.h-8rpx.data-v-1c1d3c2f,
+[h-8rpx=""].data-v-1c1d3c2f{height:8rpx;}
+.w-80rpx.data-v-1c1d3c2f,
+[w-80rpx=""].data-v-1c1d3c2f{width:80rpx;}
+.b-rd-10rpx.data-v-1c1d3c2f,
+[b-rd-10rpx=""].data-v-1c1d3c2f{border-radius:10rpx;}
+.bg-emerald-5.data-v-1c1d3c2f,
+[bg-emerald-5=""].data-v-1c1d3c2f{--un-bg-opacity:1;background-color:rgba(16,185,129,var(--un-bg-opacity));}
+.px-30rpx.data-v-1c1d3c2f,
+[px-30rpx=""].data-v-1c1d3c2f{padding-left:30rpx;padding-right:30rpx;}
+.py-60rpx.data-v-1c1d3c2f,
+[py-60rpx=""].data-v-1c1d3c2f{padding-top:60rpx;padding-bottom:60rpx;}
+.text-center.data-v-1c1d3c2f,
+[text-center=""].data-v-1c1d3c2f{text-align:center;}
+.text-28rpx.data-v-1c1d3c2f,
+[text-28rpx=""].data-v-1c1d3c2f{font-size:28rpx;}
+.text-50rpx.data-v-1c1d3c2f,
+[text-50rpx=""].data-v-1c1d3c2f{font-size:50rpx;}
+.fw-600.data-v-1c1d3c2f,
+[fw-600=""].data-v-1c1d3c2f{font-weight:600;}
+.c-bluegray-5.data-v-1c1d3c2f,
+[c-bluegray-5=""].data-v-1c1d3c2f{--un-text-opacity:1;color:rgba(100,116,139,var(--un-text-opacity));}
+.c-warmgray-5.data-v-1c1d3c2f,
+[c-warmgray-5=""].data-v-1c1d3c2f{--un-text-opacity:1;color:rgba(120,113,108,var(--un-text-opacity));}

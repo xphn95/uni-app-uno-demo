@@ -1,0 +1,9 @@
+/* layer: default */
+.text-center.data-v-608272e6,
+[text-center=""].data-v-608272e6{text-align:center;}
+.text-30px.data-v-608272e6,
+[text-30px=""].data-v-608272e6{font-size:30px;}
+.fw-700.data-v-608272e6,
+[fw-700=""].data-v-608272e6{font-weight:700;}
+.c-purple-3.data-v-608272e6,
+[c-purple-3=""].data-v-608272e6{--un-text-opacity:1;color:rgba(216,180,254,var(--un-text-opacity));}
