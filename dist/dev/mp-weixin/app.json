@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/index",
     "pages/form/index",
-    "pages/list/index"
+    "pages/list/index",
+    "pages/navtest/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",

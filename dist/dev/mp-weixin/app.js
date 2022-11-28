@@ -5,6 +5,7 @@ if (!Math) {
   "./pages/home/index.js";
   "./pages/form/index.js";
   "./pages/list/index.js";
+  "./pages/navtest/index.js";
 }
 const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "App",

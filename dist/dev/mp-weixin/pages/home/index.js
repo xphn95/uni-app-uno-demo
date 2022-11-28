@@ -45,6 +45,11 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
     const closePop = (newValue) => {
       state.value = newValue;
     };
+    const goPage4 = () => {
+      common_vendor.index.navigateTo({
+        url: "/pages/navtest/index"
+      });
+    };
     return (_ctx, _cache) => {
       return {
         a: common_vendor.p({
@@ -63,7 +68,8 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
         i: common_vendor.p({
           showPop: state.value
         }),
-        j: common_vendor.f(sex.value, (item, index, i0) => {
+        j: common_vendor.o(goPage4),
+        k: common_vendor.f(sex.value, (item, index, i0) => {
           return {
             a: common_vendor.t(item),
             b: index,
@@ -71,11 +77,11 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
             d: item === "\u4FDD\u5BC6"
           };
         }),
-        k: common_vendor.t(userEdu.value),
-        l: options.value,
-        m: common_vendor.o(selectEdu),
-        n: common_vendor.o(handleSubmit),
-        o: common_vendor.t(res.value)
+        l: common_vendor.t(userEdu.value),
+        m: options.value,
+        n: common_vendor.o(selectEdu),
+        o: common_vendor.o(handleSubmit),
+        p: common_vendor.t(res.value)
       };
     };
   }

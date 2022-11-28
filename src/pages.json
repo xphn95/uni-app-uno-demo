@@ -19,6 +19,12 @@
         "navigationBarBackgroundColor": "#A54354",
         "navigationBarTextStyle": "black"
       }
+    },
+    {
+      "path": "pages/navtest/index",
+      "style": {
+        "navigationBarTitleText": "navtest"
+      }
     }
   ],
   "globalStyle": {

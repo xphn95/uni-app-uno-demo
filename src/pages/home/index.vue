@@ -15,6 +15,15 @@
     @closePop="closePop"
   />
   <ModelPop v-model:showPop="state" />
+  <navigator url="/pages/navtest/index?wd=uni&pw=123">
+    跳转到page4
+  </navigator>
+  <view
+    text-rose-3
+    @click="goPage4"
+  >
+    跳转到page4
+  </view>
   <form @submit="handleSubmit">
     <view class="[&>view]:my-2">
       <view>
@@ -119,5 +128,11 @@ const showPop = () => {
 }
 const closePop = (newValue: boolean) => {
   state.value = newValue
+}
+
+const goPage4 = () => {
+  uni.navigateTo({
+    url: '/pages/navtest/index'
+  })
 }
 </script>

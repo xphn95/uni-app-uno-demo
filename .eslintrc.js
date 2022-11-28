@@ -6,6 +6,10 @@ module.exports = defineConfig({
     browser: true,
     es2021: true
   },
+  globals: {
+    uni: true,
+    getCurrentPages: true
+  },
   extends: [
     'plugin:vue/vue3-recommended',
     'standard-with-typescript',
