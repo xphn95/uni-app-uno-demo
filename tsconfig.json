@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
-    "types": ["@dcloudio/types", "uni-app-types"],
+    "types": ["@dcloudio/types", "@uni-helper/uni-app-types"],
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"],
@@ -18,7 +18,8 @@
     }
   },
   "vueCompilerOptions": {
-    "experimentalRuntimeMode": "runtime-uni-app"
+    "experimentalRuntimeMode": "runtime-uni-app",
+    "nativeTags": ["block", "component", "template", "slot"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

@@ -70,6 +70,8 @@
 </template>
 
 <script setup lang="ts">
+import type { SelectorPickerProps } from '@uni-helper/uni-app-types'
+
 // 性别
 type Sex = Array<'女'|'男'|'保密'>
 const sex = ref<Sex>(['女', '男', '保密'])
@@ -79,37 +81,25 @@ type Options = Array<'高中'|'大专'|'本科'|'硕士'>
 const options = ref<Options>(['高中', '大专', '本科', '硕士'])
 const userEdu = ref(options.value[0])
 
-interface SelectEdu {
-  detail: {
-    value: number
-  },
-  [prop: string]: any
-}
-
-const selectEdu = (e: SelectEdu) => {
-  userEdu.value = options.value[e.detail.value]
+const selectEdu: SelectorPickerProps['onChange'] = (e) => {
+  const index = e?.detail?.value ?? 0
+  userEdu.value = options.value[index]
 }
 
 // 结果
-interface FormProps {
+interface MyFormProps {
   sex: string,
   edu: string
 }
 
-const res = ref<FormProps>({
+const res = ref<MyFormProps>({
   sex: '',
   edu: ''
 })
 
 // 提交
-interface SubmitHandler {
-  detail: {
-    value: FormProps
-  },
-  [prop: string]: any
-}
 
-const handleSubmit = (e: SubmitHandler) => {
+const handleSubmit = (e: any) => {
   res.value.sex = e.detail.value.sex
   res.value.edu = options.value[+e.detail.value.edu]
 }
